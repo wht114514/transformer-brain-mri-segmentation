@@ -1,0 +1,47 @@
+--- BraTS2021 dataset (170MB+ per case pack, never commit) ---
+data/
+BraTS2021/
+*.nii
+*.nii.gz
+*.pkl
+
+--- Model weights ---
+checkpoints/
+weights/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+--- Preprocessing artifacts ---
+GrayList.txt
+logs/
+runs/
+outputs/
+results/
+
+--- Python ---
+pycache/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+ENV/
+
+--- Jupyter ---
+.ipynb_checkpoints/
+
+--- IDE / OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
