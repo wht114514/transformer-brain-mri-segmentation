@@ -56,7 +56,7 @@ BraTS2021_00001_flair.nii.gz   FLAIR (fluid-attenuated inversion recovery)
 BraTS2021_00001_seg.nii.gz     ground-truth label
 ```
 
-The label volume is **integer-encoded and non-contiguous** — a common source of bugs:
+The label volume is **integer-encoded and non-contiguous**:
 
 | Value | Region |
 |------:|--------|
@@ -233,7 +233,7 @@ BraTS2021_00001_flair.nii.gz   液体衰减反转恢复
 BraTS2021_00001_seg.nii.gz     标签
 ```
 
-标签为**非连续整数编码**，这是最常见的踩坑点：
+标签为**非连续整数编码**：
 
 | 取值 | 区域 |
 |-----:|------|
